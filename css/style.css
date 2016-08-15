@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4, ul, li, dl, dt, dd, ol, form, table, tr, td, span, label, input, select, option, a, img, i, em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+body {
+    font-family: "微软雅黑";
+    color: #000000;
+    margin: 0 auto;
+    font-size:14px; /*body中默认使用做多的字体大小*/
+    background: #75a6ff url("../images/header.jpg") no-repeat top center;
+    padding-top:418px;
+}
+
+.clearfix {*zoom: 1;}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*main_demo*/
+h1{height:105px;width:100%;background: url("../images/h1_bg.png") no-repeat top center;}
+h3{width:990px;height:47px;margin: 27px auto 20px auto;text-indent: -99em;overflow: hidden;}
+h1 i{margin:0 auto;display:block;width:216px;height:61px;background: url("../images/title.png") top left;text-indent: -99em;overflow: hidden;}
+#fish{background: url("../images/title.png") left -61px;}
+#camping{background: url("../images/title.png") left -122px;}
+#cycling{background: url("../images/title.png") left -183px;}
+.run,.fish,.camping,.cycling{width:766px;margin:0 auto;background:url("../images/run_bg.png") no-repeat;padding:86px 0 13px 388px;}
+.fish{background:url("../images/fish_bg.png") no-repeat;padding:87px 299px 13px 92px;}
+.camping{background:url("../images/campng_bg.png") no-repeat;}
+.cycling{background:url("../images/cycling_bg.png") no-repeat;padding:87px 299px 13px 92px;}
+.run ul,.fish ul,.camping ul,.cycling ul{width:684px;}
+.run li,.fish li,.camping li,.cycling li{float:left;margin:0 9px 7px 0;background: #ffffff;}
+.list_1 li{width:333px;height:160px;margin:0 9px 7px 0;}
+.list_1 img{float: left;}
+.list_1 dl{float: left;padding-top: 106px;}
+.list_1 dt{font-size:16px;line-height:26px;  }
+.list_1 dd{font-size: 16px;color: #ffffff;background-color: #000000;width:83px;height:23px;border-radius: 2px;text-align: center;line-height: 23px;}
+.list_2 li{width:162px;height:206px;margin: 3px 9px 10px 0;}
+.list_2 dt{width:162px;height:16px;line-height: 16px;text-align: center;}
+.list_2 dd{height:24px;line-height: 24px;text-align: center;}
+.sport_shoes{background: url("../images/list_title.jpg") no-repeat;}
+.sport_cloth{background: url("../images/list_title.jpg") no-repeat left -47px;}
+.sport_package{background: url("../images/list_title.jpg") no-repeat left -94px;}
+.fish_rod{background: url("../images/list_title.jpg") no-repeat left -141px;}
+.bait{background: url("../images/list_title.jpg") no-repeat left -188px;}
+.fishhook{background: url("../images/list_title.jpg") no-repeat left -235px;}
+.fish_equipment{background: url("../images/list_title.jpg") no-repeat left -282px;}
+.camping_cloth{background: url("../images/list_title.jpg") no-repeat left -329px;}
+.Tent_sleeping_bag{background: url("../images/list_title.jpg") no-repeat left -376px;}
+.camping_equipment{background: url("../images/list_title.jpg") no-repeat left -423px;}
+.mountain_bike{background: url("../images/list_title.jpg") no-repeat left -470px;}
+.sifei{background: url("../images/list_title.jpg") no-repeat left -517px;}
+.cycling_equipment{background: url("../images/list_title.jpg") no-repeat left -564px;}
+.sport_ul_1{width:1000px;padding-left: 10px;margin: 0 auto;}
+.sport_ul_2{padding-bottom: 41px;}
+.sport_ul_1 li{width:190px;float: left;background-color: #ffffff;margin:0 10px 13px 0 ;}
+.sport_ul_1 dl{width:100%;margin-top: 2px;}
+.sport_ul_1 dt{width:100%;;line-height: 26px;text-align: center;font-size: 10px;}
+.sport_ul_1 dd{width:100%;height:42px;}
+.dd_price{ float: left;}
+.bargyPrice{color: #e93030;line-height: 20px;font-weight: 600;}
+.originalPrice{line-height: 16px;color:#bbbbbb;text-decoration: line-through;font-size: 12px;}
+.dd_buy{float: right;margin:0 10px 7px 0;background: #e93030 url("../images/buy_bg.jpg") no-repeat top right;width:50px;height:35px;text-indent: -99em;overflow: hidden;}
+footer{padding-top:25px;padding-bottom:375px;background: #ffffff url("../images/footer.jpg") no-repeat center 25px; }
+footer a{display: block;height:100px;}
+.slide_nav{position: fixed;top:15px;right:25px;background: url("../images/nav_bg.png") no-repeat;padding: 16px 12px 0 14px;}
+nav{background-color: #ffffff;width:117px;padding-top: 4px;}
+nav p>a,nav>p{display:block;width:84px;margin:0 auto;line-height:35px;text-align: center;color: #2025a5;font-size: 18px;border-bottom: 1px dashed #6e6e6e;font-weight: 600; }
+nav>a{display:block;color: #0a0c48;font-size: 16px;line-height: 30px;width:84px;text-align: center;margin:0 auto;}
+nav>a:hover{background-color:#ef7e6d; }
+.border{border-bottom: 1px dashed #6e6e6e;}
+.red{color: #e93030;width:100%;border: 0 none;}
+.last_a{display: block;line-height: 39px;padding-left: 13px;font-size: 18px;color: #ffffff;font-weight: 600;}
+/*
+    runSport
+    fishSport
+    campingSport
+    cyclingSport
+*/
