@@ -77,7 +77,7 @@ h1 i{margin:0 auto;display:block;width:216px;height:61px;background: url("../ima
 .sport_ul_1 dl{width:100%;margin-top: 2px;}
 .sport_ul_1 dt{width:100%;;line-height: 26px;text-align: center;font-size: 10px;}
 .sport_ul_1 dd{width:100%;height:42px;}
-.dd_price{ float: left;}
+.dd_price{ float: left;padding-left: 10px;}
 .bargyPrice{color: #e93030;line-height: 20px;font-weight: 600;}
 .originalPrice{line-height: 16px;color:#bbbbbb;text-decoration: line-through;font-size: 12px;}
 .dd_buy{float: right;margin:0 10px 7px 0;background: #e93030 url("../images/buy_bg.jpg") no-repeat top right;width:50px;height:35px;text-indent: -99em;overflow: hidden;}
@@ -85,7 +85,7 @@ footer{padding-top:25px;padding-bottom:375px;background: #ffffff url("../images/
 footer a{display: block;height:100px;}
 .slide_nav{position: fixed;top:15px;right:25px;background: url("../images/nav_bg.png") no-repeat;padding: 16px 12px 0 14px;}
 nav{background-color: #ffffff;width:117px;padding-top: 4px;}
-nav p>a,nav>p{display:block;width:84px;margin:0 auto;line-height:35px;text-align: center;color: #2025a5;font-size: 18px;border-bottom: 1px dashed #6e6e6e;font-weight: 600; }
+nav p>a,nav>p{display:block;width:84px;margin:0 auto;line-height:34px;text-align: center;color: #2025a5;font-size: 18px;border-bottom: 1px dashed #6e6e6e;font-weight: 600; }
 nav>a{display:block;color: #0a0c48;font-size: 16px;line-height: 30px;width:84px;text-align: center;margin:0 auto;}
 nav>a:hover{background-color:#ef7e6d; }
 .border{border-bottom: 1px dashed #6e6e6e;}
